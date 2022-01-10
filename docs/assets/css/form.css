@@ -1,0 +1,106 @@
+input,
+select,
+textarea {
+  color: inherit;
+  font-family: inherit;
+}
+
+/* input:invalid {
+  color: red;
+} */
+
+button {
+  padding: 6px 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid var(--borderColor3);
+}
+
+button:hover {
+  background-color: rgba(150, 150, 150, 0.1);
+}
+
+a.fas {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon-btn .fas {
+  margin-right: 6px;
+}
+
+.editor,
+input:focus,
+textarea:focus {
+  outline-color: var(--blue);
+}
+
+textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.editor.content {
+  min-height: 12rem;
+  line-height: 1.5;
+}
+
+.footer-btn-group {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.editor,
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"],
+.field textarea {
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid var(--borderColor2);
+}
+
+.field .mandatory {
+  color: var(--red);
+}
+
+.field .optional {
+  color: var(--less-important);
+  font-size: 0.9em;
+}
+
+.field label {
+  margin-bottom: 8px;
+}
+
+.field .input-error {
+  color: var(--red);
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.field textarea.content {
+  min-height: 25rem;
+  line-height: 1.5;
+}
+
+.field .noborder{
+  border-width: 0;
+}
+
+/* .field .input-error::after {
+  content: "\00a0";
+} */
+
+button.fas {
+  border-width: 0;
+  padding: 6px;
+}
